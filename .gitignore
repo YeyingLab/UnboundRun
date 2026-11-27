@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+data/
+models/
+third_party/
+.tmp/
+tmp/
+
+# Large assets are distributed in the release archive / model bundle.
+assets/*.pt
+assets/*.pth
+assets/seg_b2_final/*.safetensors
+*.safetensors
